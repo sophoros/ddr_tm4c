@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99
+-I.\RTE\_SpaceInvaders
+-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+-D__UVISION_VERSION="527" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR
+-o .\diskio.o --omf_browse .\diskio.crf --depend .\diskio.d --feedback ".\SpaceInvaders.fed" "diskio.c"

@@ -1,0 +1,72 @@
+;#<FEEDBACK># ARM Linker, 5060750: Last Updated: Wed May 08 04:43:49 2019
+;VERSION 0.2
+;FILE adc.o
+;FILE dac.o
+;FILE diskio.o
+CS_Init <= USED 0
+Timer5_Init <= USED 0
+disk_timerproc <= USED 0
+;FILE ff.o
+clust2sect <= USED 0
+f_chdir <= USED 0
+f_chmod <= USED 0
+f_closedir <= USED 0
+f_getcwd <= USED 0
+f_getfree <= USED 0
+f_getlabel <= USED 0
+f_lseek <= USED 0
+f_mkdir <= USED 0
+f_mkfs <= USED 0
+f_opendir <= USED 0
+f_readdir <= USED 0
+f_rename <= USED 0
+f_setlabel <= USED 0
+f_stat <= USED 0
+f_truncate <= USED 0
+f_unlink <= USED 0
+f_utime <= USED 0
+f_write <= USED 0
+;FILE pll.o
+;FILE random.o
+Random <= USED 0
+Random32 <= USED 0
+;FILE sound.o
+Sound_Init <= USED 0
+Sound_Play <= USED 0
+Sound_Shoot <= USED 0
+;FILE spaceinvaders.o
+IO_Init <= USED 0
+PortF_Init <= USED 0
+;FILE st7735.o
+Delay1ms <= USED 0
+Output_Clear <= USED 0
+Output_Color <= USED 0
+Output_Off <= USED 0
+Output_On <= USED 0
+SDC_CS_Init <= USED 0
+ST7735_DrawChar <= USED 0
+ST7735_DrawCircle <= USED 0
+ST7735_DrawFastVLine <= USED 0
+ST7735_DrawSmallCircle <= USED 0
+ST7735_InitB <= USED 0
+ST7735_InitR <= USED 0
+ST7735_InvertDisplay <= USED 0
+ST7735_PlotBar <= USED 0
+ST7735_PlotClear <= USED 0
+ST7735_PlotLine <= USED 0
+ST7735_PlotNext <= USED 0
+ST7735_PlotNextErase <= USED 0
+ST7735_PlotPoint <= USED 0
+ST7735_PlotPoints <= USED 0
+ST7735_PlotdBfs <= USED 0
+ST7735_SetRotation <= USED 0
+ST7735_SwapColor <= USED 0
+ferror <= USED 0
+fgetc <= USED 0
+fputc <= USED 0
+;FILE startup.o
+;FILE timer0.o
+Arr_Init <= USED 0
+writeArr <= USED 0
+;FILE timer1.o
+;FILE timer2.o
